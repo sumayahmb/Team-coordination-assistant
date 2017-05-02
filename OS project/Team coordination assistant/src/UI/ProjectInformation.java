@@ -10,27 +10,27 @@ package UI;
  * @author sumayahbawazeer
  */
 public class ProjectInformation {
-    //private String username;
-    //private String projectName;
+    private String username;
+    private String projectName;
     private String taskName;
     private String taskStatus;
     private String enrolledUser;
 
-//    public String getUsername() {
-//        return username;
-//    }
-//
-//    public void setUsername(String username) {
-//        this.username = username;
-//    }
-//
-//    public String getProjectName() {
-//        return projectName;
-//    }
-//
-//    public void setProjectName(String projectName) {
-//        this.projectName = projectName;
-//    }
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+       this.username = username;
+   }
+
+   public String getProjectName() {
+        return projectName;
+    }
+
+    public void setProjectName(String projectName) {
+        this.projectName = projectName;
+    }
 
     public String getTaskName() {
         return taskName;
