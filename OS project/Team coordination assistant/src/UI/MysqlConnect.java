@@ -13,7 +13,7 @@ public class MysqlConnect {
     public static Connection ConnectDB(){
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/os","root","");
+            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/os","root","mysql01");
             JOptionPane.showMessageDialog(null, "Connected to Database");
             return conn;
         } catch (Exception e) {

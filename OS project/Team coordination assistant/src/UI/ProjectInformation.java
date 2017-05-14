@@ -24,7 +24,7 @@ public class ProjectInformation {
         this.username = username;
     }
 
-    public String getProjectName() {
+   public String getProjectName() {
         return projectName;
     }
 
